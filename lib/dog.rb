@@ -12,7 +12,7 @@ class Dog
 
   end
 
-  def self.allß
+  def self.all
     @@all
   end
 

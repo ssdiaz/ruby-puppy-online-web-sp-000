@@ -11,11 +11,11 @@ class Dog
     save
   end
 
-  def self.all
+  def self.all  # returns Dog's array @@all
     @@all
   end
 
-  def self.print_all
+  def self.print_all #prints all Dog's name
     @@all.collect do |dog|
       puts dog.name
     end

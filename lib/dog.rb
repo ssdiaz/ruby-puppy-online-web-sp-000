@@ -21,8 +21,12 @@ class Dog
     end
   end
 
-  def save #instance method, not class (self.)). so this way it runs per instance, called from initialize method
+  def save #instance method, not class (self.) method. This way it runs per instance, called upon from initialize method
     @@all << self
+  end
+
+  def self.clear_all #clearing @@all=[array]
+    @@all.clear
   end
 
 

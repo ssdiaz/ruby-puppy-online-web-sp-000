@@ -19,7 +19,7 @@ class Dog
       dog.each do |name|
         puts name
       end
-      puts dog
+      puts "hi"
     end
   end
 

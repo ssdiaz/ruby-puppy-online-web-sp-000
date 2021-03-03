@@ -21,7 +21,7 @@ class Dog
     end
   end
 
-  def self.save
+  def save #instance method, not class (self.)). so this way it runs per instance, called from initialize method
     @@all << self
   end
 
